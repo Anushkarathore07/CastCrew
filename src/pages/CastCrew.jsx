@@ -3,11 +3,10 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Typography, CircularProgress, Container, Grid, Box, Avatar } from "@mui/material";
 import { Link } from "react-router-dom";
-import { Button } from "@mui/material";
 import { IconButton } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
-const API_KEY = "d150cf6a0e97924e7aea0928928e8676"; // Replace with your actual TMDB API key
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY; // Replace with your actual TMDB API key
 
 const CastCrew = () => {
   const { id } = useParams();

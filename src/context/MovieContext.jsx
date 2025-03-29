@@ -3,7 +3,8 @@ import axios from "axios";
 
 export const MovieContext = createContext();
 
-const API_KEY = "d150cf6a0e97924e7aea0928928e8676";
+
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const MOVIE_API = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`;
 const GENRE_API = `https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}`;
 
