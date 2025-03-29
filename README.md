@@ -45,13 +45,13 @@ This is a **React-based Movie Database App** that fetches movie details and cast
 ## 📸 Screenshots / GIFs
 explore Screenshots folder
 
-
+---
 
 ## 🚀 Deployment
-(TBD: Add deployment link once hosted)
+https://cine-scope-delta.vercel.app/
 
 ---
 
 ### 🔗 Contact
-For any issues or contributions, feel free to open a pull request or contact me at [anushkarathore954@gmail.com].
+For any issues or contributions, feel free to open a pull request or contact me at anushkarathore954@gmail.com
 
