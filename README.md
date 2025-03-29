@@ -24,7 +24,7 @@ This is a **React-based Movie Database App** that fetches movie details and cast
 ## 🏗️ Installation & Setup
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/CineScope.git
+   git clone https://github.com/Anushkarathore07/CineScope.git
    cd CineScope
    ```
 2. **Install dependencies**
